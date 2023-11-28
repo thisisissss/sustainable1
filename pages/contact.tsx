@@ -57,13 +57,13 @@ export default function Contact() {
       {/* Social Media Links */}
       <footer className="bg-white dark:bg-gray-900 px-4 py-8">
         <div className="flex justify-center space-x-4">
-          <a href="https://line.me" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:text-green-700">
+          <a href="https://line.me/ti/p/eZ2GG61uIe" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:text-green-700">
             <FaLine size={34} />
           </a>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">
+          <a href="https://www.facebook.com/sofi.godmode" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">
             <FaFacebook size={34} />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-700">
+          <a href="https://www.instagram.com/sustainable_green_gold/" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-700">
             <FaInstagram size={34} />
           </a>
         </div>
