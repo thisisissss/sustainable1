@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -34,7 +34,10 @@ export default function Home() {
         <Link href="/cheese">
           <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
             <h2 className="mb-3 text-2xl font-semibold">
-              Cheese <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">-&gt;</span>
+              Cheese{" "}
+              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                -&gt;
+              </span>
             </h2>
             <p className="m-0 max-w-[30ch] text-sm opacity-50">
               Find in-depth information about Cheese
@@ -44,7 +47,10 @@ export default function Home() {
         <Link href="/soap">
           <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
             <h2 className="mb-3 text-2xl font-semibold">
-              Soap <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">-&gt;</span>
+              Soap{" "}
+              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                -&gt;
+              </span>
             </h2>
             <p className="m-0 max-w-[30ch] text-sm opacity-50">
               Learn about Soap in an Info!
@@ -54,17 +60,24 @@ export default function Home() {
         <Link href="/starter">
           <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
             <h2 className="mb-3 text-2xl font-semibold">
-              Aquaponic Starter <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">-&gt;</span>
+              Aquaponic Starter{" "}
+              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                -&gt;
+              </span>
             </h2>
             <p className="m-0 max-w-[30ch] text-sm opacity-50">
-              Try our starter as organic fertilizer and explore how your plants will thrive!
+              Try our starter as organic fertilizer and explore how your plants
+              will thrive!
             </p>
           </div>
         </Link>
         <Link href="/pesticide">
           <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
             <h2 className="mb-3 text-2xl font-semibold">
-              Organic Pesticides <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">-&gt;</span>
+              Organic Pesticides{" "}
+              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                -&gt;
+              </span>
             </h2>
             <p className="m-0 max-w-[30ch] text-sm opacity-50">
               Pure Harvest: Safeguard Naturally
@@ -73,5 +86,5 @@ export default function Home() {
         </Link>
       </div>
     </main>
-  )
+  );
 }
