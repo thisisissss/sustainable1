@@ -29,8 +29,8 @@ export default function Soap() {
       <h1 className="text-6xl font-bold mobile-text-size">
 Try the best and simple soap</h1>
 
-        <p className="mt-3 text-2xl">
-          No more vaseline. no more petroleum and pore-clogging products
+        <p className="mt-3 text-2xl pt-5">
+          No more vaseline.<br></br> No more petroleum and pore-clogging products
         </p>
 
         <div className="flex items-center justify-around w-full mt-20">

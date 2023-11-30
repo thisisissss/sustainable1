@@ -30,7 +30,7 @@ export default function Starter() {
           Aquaponic starter & organic fertilizers
         </h1>
 
-        <p className="mt-3 text-2xl">
+        <p className="mt-3 text-2xl pt-5">
           Breakthrough in the world of fertilizers.
         </p>
 
