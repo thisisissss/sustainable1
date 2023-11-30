@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
            
-            <div className="fixed bottom-0 left-0 right-0 m-4 flex justify-between items-center w-full bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:bg-none">
+            <div className="fixed bottom-0 left-0 right-0 flex justify-between items-center w-full bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:bg-none">
           <Link href="/info">
           <div className="flex w-full justify-center lg:static lg:h-auto lg:bg-none">
               Info
