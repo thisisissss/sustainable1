@@ -7,7 +7,7 @@ export default function Home() {
            
             <div className="fixed bottom-0 left-0 right-0 flex justify-between items-center w-full bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:bg-none">
           <Link href="/info">
-          <div className="flex w-full justify-center lg:static lg:h-auto lg:bg-none">
+          <div className="flex w-full justify-center gap-4x p-8 lg:static lg:h-auto lg:bg-none">
               Info
               </div>
           </Link>
