@@ -26,7 +26,7 @@ export default function Starter() {
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
+      <h1 className="text-6xl font-bold mobile-text-size">
           Aquaponic starter & organic fertilizers
         </h1>
 
