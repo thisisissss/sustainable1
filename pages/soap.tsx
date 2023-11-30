@@ -21,12 +21,12 @@ export default function Soap() {
         &#8592; {/* HTML entity for left arrow */}
       </button>
       <Head>
-        <title>Start Building with Next.js</title>
+        <title>Organic Soap</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">Try the best and simple soap</h1>
+      <h2 className="text-6xl font-bold sm:text-2xl md:text-5xl lg:text-6xl">Try the best and simple soap</h2>
 
         <p className="mt-3 text-2xl">
           No more vaseline. no more petroleum and pore-clogging products
