@@ -68,82 +68,83 @@ export default function Startup() {
 
       {/* About Section */}
       <section className="py-10 sm:py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-lg sm:text-xl text-green-600 font-montserrat">
-              ABOUT TROUT RAISING
-            </h2>
-            <h2 className="text-xl sm:text-2xl text-black mt-4 mb-4 font-bold px-10 sm:px-40 text-center font-sans">
-              Nurturing Nature&apos;s Finest, Crafting Aquatic Excellence.
-            </h2>
-            <hr className="border-0 bg-green-500 h-1 w-24 mx-auto my-4" />
-            <p className="text-sm sm:text-md mt-4 px-8 sm:px-40 text-center text-gray-600">
-              At the heart of Thailand&lsquo;s lush landscapes lies a burgeoning
-              opportunity for sustainable trout farming. Our approach to trout
-              raising marries traditional knowledge with modern aquaculture
-              techniques to create a synergy that not only yields high-quality
-              trout but also honors and preserves the natural environment.
-            </p>
-          </div>
+  <div className="container mx-auto px-4">
+    <div className="text-center mb-12">
+      <h2 className="text-lg sm:text-xl text-green-600 font-montserrat">
+        ABOUT TROUT RAISING
+      </h2>
+      <h2 className="text-xl sm:text-2xl text-black mt-4 mb-4 font-bold px-4 sm:px-10 md:px-20 lg:px-40 text-center font-sans">
+        Nurturing Nature&apos;s Finest, Crafting Aquatic Excellence.
+      </h2>
+      <hr className="border-0 bg-green-500 h-1 w-24 mx-auto my-4" />
+      <p className="text-sm sm:text-md mt-4 px-4 sm:px-10 md:px-20 lg:px-40 text-center text-gray-600">
+        At the heart of Thailand&lsquo;s lush landscapes lies a burgeoning
+        opportunity for sustainable trout farming. Our approach to trout
+        raising marries traditional knowledge with modern aquaculture
+        techniques to create a synergy that not only yields high-quality
+        trout but also honors and preserves the natural environment.
+      </p>
+    </div>
 
-          <div className="relative flex flex-row flex-nowrap -m-4 justify-center">
-            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              <Image
-                src="/leaves.png" // Replace with your image path
-                alt="Leaf icon"
-                width={80} // Set the width as needed
-                height={80} // Set the height as needed
-                className="mb-4" // Adjust margin as needed
-              />
-            </div>
-            <div className="w-full md:w-1/3 p-4">
-              <div className="shadow-lg rounded-lg p-6 border-t-4 border-green-500">
-                <h3 className="text-xl text-green-600 font-montserrat text-center mb-3">
-                  WE ARE LOOKING FOR
-                </h3>
-                <ul className="list-disc text-sm text-gray pl-5 space-y-2">
-                  <li>Sustainable practices</li>
-                  <li>
-                    Mimicking natural trout habitats to reduce energy usage.
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="w-full md:w-1/3 p-4">
-              <div className="shadow-lg rounded-lg p-6 border-t-4 border-green-500">
-                <h3 className="text-xl text-green-600 font-montserrat text-center mb-3">
-                  OUR APPROACH
-                </h3>
-                <ul className="list-disc text-sm text-gray pl-5 space-y-2">
-                  <li>
-                    Feeding trout with locally-sourced, non-GMO ingredients.
-                  </li>
-                  <li>
-                    Supporting local agriculture for a distinctive flavor
-                    profile.
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="w-full md:w-1/3 p-4">
-              <div className="shadow-lg rounded-lg p-6 border-t-4 border-green-500">
-                <h3 className="text-xl text-green-600 font-montserrat text-center mb-3">
-                  OUR FIRST SUCCESSFUL BUSINESS
-                </h3>
-                <ul className="list-disc text-sm text-gray pl-5 space-y-2">
-                  <li>
-                    Designing ponds to emulate natural trout environments.
-                  </li>
-                  <li>
-                    Creating conditions that promote healthy growth and lower
-                    stress.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+    <div className="relative flex flex-wrap -m-4 justify-center">
+      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <Image
+          src="/leaves.png" // Replace with your image path
+          alt="Leaf icon"
+          width={80} // Set the width as needed
+          height={80} // Set the height as needed
+          className="mb-4" // Adjust margin as needed
+        />
+      </div>
+      <div className="w-full md:w-1/3 p-4">
+        <div className="shadow-lg rounded-lg p-6 border-t-4 border-green-500">
+          <h3 className="text-xl text-green-600 font-montserrat text-center mb-3">
+            WE ARE LOOKING FOR
+          </h3>
+          <ul className="list-disc text-sm text-gray pl-5 space-y-2">
+            <li>Sustainable practices</li>
+            <li>
+              Mimicking natural trout habitats to reduce energy usage.
+            </li>
+          </ul>
         </div>
-      </section>
+      </div>
+      <div className="w-full md:w-1/3 p-4">
+        <div className="shadow-lg rounded-lg p-6 border-t-4 border-green-500">
+          <h3 className="text-xl text-green-600 font-montserrat text-center mb-3">
+            OUR APPROACH
+          </h3>
+          <ul className="list-disc text-sm text-gray pl-5 space-y-2">
+            <li>
+              Feeding trout with locally-sourced, non-GMO ingredients.
+            </li>
+            <li>
+              Supporting local agriculture for a distinctive flavor
+              profile.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="w-full md:w-1/3 p-4">
+        <div className="shadow-lg rounded-lg p-6 border-t-4 border-green-500">
+          <h3 className="text-xl text-green-600 font-montserrat text-center mb-3">
+            OUR FIRST SUCCESSFUL BUSINESS
+          </h3>
+          <ul className="list-disc text-sm text-gray pl-5 space-y-2">
+            <li>
+              Designing ponds to emulate natural trout environments.
+            </li>
+            <li>
+              Creating conditions that promote healthy growth and lower
+              stress.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Portfolio Section */}
       <section className="bg-white py-8">
