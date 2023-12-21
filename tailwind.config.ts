@@ -39,8 +39,9 @@ const config: Config = {
         },
       },
       fontFamily: {
-        'body': ['Nunito', 'sans-serif'], // Assuming Nunito is the desired font
+        'body': ['Nunito', 'sans-serif'],
         'sans': ['Nunito', 'sans-serif'],
+        'montserrat': ['Montserrat', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

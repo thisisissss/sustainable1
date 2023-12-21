@@ -24,6 +24,8 @@ export default function Soap() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    console.log("Form submitted", formData); // Check if this logs when you click the button
+
     const data = {
         name: formData.name,
         phone: formData.phone,

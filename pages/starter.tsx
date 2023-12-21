@@ -1,4 +1,3 @@
-// pages/index.js
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -21,7 +20,7 @@ export default function Starter() {
         &#8592;
       </button>
       <Head>
-        <title>Start Building with Next.js</title>
+        <title>Starter Kit</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -38,7 +37,7 @@ export default function Starter() {
           <div className="p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <Image
               src="https://i.imgur.com/GburyJJ.png"
-              alt="Learn Next.js"
+              alt="starter"
               width={256}
               height={144}
               layout="responsive"
